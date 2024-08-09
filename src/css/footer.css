@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+}
+.company-name-footer{
+    color: #FBFBFB;
+    display: flex;
+    weight: 500;
+    size: 20px;
+    line-height: 24.2px;
+}
+.about-company{
+    padding-left: 558px;
+    display: flex;
+    padding-top: 50px;
+    gap: 4px;
+}
+.about-company-list{
+    display: flex;
+    padding: 20px;
+    gap: 4px;
+    padding-top: 50px;
+}
+.item-list-ac{
+    margin-bottom: 10px;
+    color: #FBFBFB;
+}
+.motto-of-company{
+    color: #FBFBFB;
+    text-align: center;
+    line-height: 32px;
+    font-size: 32px;
+    font-weight: 400p;
+}
+.privacy-police{
+    display: flex;
+    gap: 32px;
+    color: #FBFBFB66;
+    text-align: center;
+}
+.ppc-information{
+    text-align: center;
+    padding-left: 546px;
+    padding-top: 381px;
+}
