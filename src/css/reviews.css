@@ -9,8 +9,32 @@
         justify-content: flex-start;
         flex-direction: column;
         gap: 75px;
-        
+        }
+
+@media screen and (min-width: 768px) {
+    .section-review {
+           }
 }
+
+@media screen and (min-width: 1280px) {
+    .container.yachts {
+       
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container.yachts {
+
+    }
+        }
+
+
+
+
+
+
+
+
 
 .container-review {
 max-width: 100%;
