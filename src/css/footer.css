@@ -1,16 +1,24 @@
-
+.containe{
+    display: flex;
+}
 .company-name-footer{
     color: #FBFBFB;
     display: flex;
     font-size: 20px;
     line-height: 24.2px;
-
+    width: 74px;
+    height: 24px;
+    padding-top: 50px;
+    padding-left: 75px;
 }
 .about-company{
     padding-left: 558px;
     display: flex;
     padding-top: 50px;
     gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 .about-company-list{
     display: flex;
@@ -18,7 +26,7 @@
     margin: 0;
     gap: 15px;
     padding-top: 50px;
-    list-style-type: none;
+    align-items: center;
 }
 .item-list-ac{
     margin-bottom: 10px;
@@ -29,12 +37,23 @@
     width: 91px;
     height: 41px;
 }
+.smc-list{
+    display: flex;
+    width: 88px;
+    height: 24px;
+    
+}
 .motto-of-company{
     color: #FBFBFB;
     text-align: center;
     line-height: 32px;
     font-size: 32px;
     font-weight: 400px;
+    width: 699px;
+    height: 96px;
+    margin-top: 186px;
+    margin-left: 345px;
+    letter-spacing: -2%;
 }
 .privacy-police{
     display: flex;
