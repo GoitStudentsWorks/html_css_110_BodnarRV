@@ -17,13 +17,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container.yachts {
+    .section-review {
        
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .container.yachts {
+    .section-review {
 
     }
         }
@@ -102,6 +102,7 @@ background: #fbfbfb;
             width: 56px;
             height: 56px;
             margin: 0 auto;
+            
 }
 
 .review-card-header {
@@ -139,6 +140,29 @@ font-weight: 400;
         background: #fbfbfb;
 }
 
+@media screen and (min-width: 768px) {
+    .review-card-second {}
+}
+
+
+@media screen and (min-width: 1280px) {
+    .review-card-second {}
+}
+
+@media screen and (min-width: 1440px) {
+    .review-card-second {}
+}
+
+
+
+
+
+
+
+
+
+
+
 .review-card-third {
     display: flex;
         align-items: center;
@@ -150,4 +174,13 @@ font-weight: 400;
         width: 335px;
         height: 282px;
         background: #fbfbfb;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .review-card-third {}
+}
+
+@media screen and (min-width: 1440px) {
+    .review-card-third {}
 }
