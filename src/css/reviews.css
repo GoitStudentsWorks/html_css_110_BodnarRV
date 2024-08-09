@@ -1,42 +1,27 @@
-@import url('./reviews.css');
+.section-review {}
 
-ul {
-    list-style-type: none;
-    /* Видаляє маркери */
+.container {}
 
-}
+.container-review {}
 
-.section-title-additional {
-    display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 25px;
-        width: 854px;
-            height: 205px;
-            font-weight: 500;
-                font-size: 48px;
-                line-height: 1;
-                letter-spacing: -0.02em;
-                text-align: center;
-                color: #fbfbfb;
-}
+.section-title {}
 
-.section-paragraph-general {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.28571;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: #fbfbfb;
-        opacity: 0.4;
-}
 
-.container-review {
-    margin: 0 auto;
-}
 
-.review-list {
-    display: flex;
-    gap: 26px;
-}
+.section-title-additional {}
+
+.section-paragraph-general {}
+
+.review-list {}
+
+.review-card-first {}
+
+.review-card-img-container {}
+
+.review-card-img {}
+
+.review-card-header {}
+
+.review-card-second {}
+
+.review-card-third {}
