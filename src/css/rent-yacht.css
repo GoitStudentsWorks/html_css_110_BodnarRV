@@ -9,7 +9,7 @@
 }
 
 .yacht-photo {
-  width: 300px;
+  width: 335px;
   height: auto;
   margin: auto;
   border-radius: 24px;
@@ -48,10 +48,11 @@
   font-size: 12px;
   line-height: 1.16;
   margin-bottom: 18px;
+  outline: none;
 }
 
 .form-imput:focus,
-.form-text:focus,
+.form-comment-text:focus,
 .form-imput:focus::placeholder,
 .form-comment-text:focus::placeholder {
   border-color: #fbfbfb;
@@ -72,6 +73,7 @@
   height: 108px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .form-button {
   font-weight: 500;
@@ -106,6 +108,7 @@
 
   .yacht-photo {
     width: 728px;
+    height: 534px;
   }
 
   .form-text {
