@@ -49,6 +49,7 @@
   line-height: 1.16;
   margin-bottom: 18px;
   outline: none;
+  resize: none;
 }
 
 .form-imput:focus,
