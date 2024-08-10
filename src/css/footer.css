@@ -1,0 +1,45 @@
+.footer{
+    max-width: 100%;
+    background-color: #1B414B;
+    margin-left: 25px;
+    border-radius: 24px, 24px, 0px, 0px;
+}
+.company-name-box{
+    width: 74px;
+    height: 24px;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+.company-name{
+    width: 72px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FBFBFB;
+}
+.main-information{
+    width: 281px;
+    height: 40px;
+    padding-top: 50px;
+    display: flex;
+    gap: 4px;
+    padding-left: 558px;
+}
+.item-information-list{
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FBFBFB66;
+}
+.item-text-information{
+    width: 42px;
+    height: 10px;
+    padding-top: 15px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11.7px;
+    text-align: center;
+    color: #FBFBFB;
+}
