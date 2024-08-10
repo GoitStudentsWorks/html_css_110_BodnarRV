@@ -11,29 +11,6 @@
         gap: 75px;
         }
 
-@media screen and (min-width: 768px) {
-    .section-review {
-           }
-}
-
-@media screen and (min-width: 1280px) {
-    .section-review {
-       
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .section-review {
-
-    }
-        }
-
-
-
-
-
-
-
 
 
 .container-review {
@@ -105,6 +82,19 @@ background: #fbfbfb;
 
 .review-card-img-container {
     width: calc((100% - 32)/2);
+}
+
+
+@media screen and (min-width: 1280px) {
+.review-card-img-container {
+        width: calc((100% - 52)/3);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+.review-card-img-container {
+        width: calc((100% - 64)/3);
+    }
 }
 
 .review-card-img {
