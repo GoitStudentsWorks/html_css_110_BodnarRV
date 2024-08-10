@@ -1,11 +1,29 @@
 <section class="section-form">
   <div class="container form">
     <picture>
-      <!-- <source srcset="1x, 2x" media="(max-width: 767px)" />
-      <source srcset="1x, 2x" media="(min-width: 768px)" />
-      <source srcset="1x, 2x" media="(min-width: 1280px)" /> -->
+      <source
+        srcset="
+          /img/Rent_a_yacht-mobile.jpg    1x,
+          /img/Rent_a_yacht-mobile-2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          ../img/Rent_a_yacht-medium.jpg   1x,
+          ../img/Rent_a_yacht-2-medium.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/Rent_a_yacht-desktop.png    1x,
+          ../img/Rent_a_yacht-2x-desktop.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
       <img
-        src="../img/Rent_a_yacht.jpg"
+        src="/img/Rent_a_yacht-desktop.jpg"
         alt="yacht"
         class="yacht-photo"
         width="768"
