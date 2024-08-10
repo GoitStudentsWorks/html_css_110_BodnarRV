@@ -56,7 +56,6 @@
 .form-imput:focus::placeholder,
 .form-comment-text:focus::placeholder {
   border-color: #fbfbfb;
-  color: #fbfbfb;
 }
 
 .form-comment-text {
