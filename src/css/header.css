@@ -1,0 +1,123 @@
+.header {
+  position: absolute;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+
+  background-color: #fbfbfb;
+  margin: 20px;
+}
+.header-container {
+  width: 335px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 704px;
+    height: 48px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-container {
+    width: 1080px;
+    height: 48px;
+  }
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  margin-right: auto;
+}
+.header-button {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  gap: 4px;
+}
+@media screen and (min-width: 768px) {
+  .header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 113px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-button {
+    margin-left: 296px;
+  }
+}
+
+.header-btn {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background-color: rgba(27, 65, 75, 0.5);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #1b414b;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .header-btn {
+    display: block;
+  }
+}
+.text-btn {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+.header-soc-list {
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
+.header-soc-icon {
+}
+
+.heder-open-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .heder-open-btn {
+    display: none;
+  }
+}
+
+.heder-icon {
+  display: block;
+}
