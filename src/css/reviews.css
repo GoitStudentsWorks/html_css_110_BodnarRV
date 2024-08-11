@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.section-review {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 75px;
+  padding: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-review {
+    padding: 150px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-review {
+    padding: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-review {
+    padding: 150px;
+  }
+}
+
+.container-review {
+  max-width: 100%;
+  width: auto;
+}
+
+.section-title-additional {
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.section-paragraph-general {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  padding-top: 25px;
+  opacity: 0.4;
+  max-width: 571px;
+  margin: 0 auto;
+}
+
+.review-list {
+  display: flex;
+  box-sizing: border-box;
+  list-style: none;
+  justify-content: center;
+  flex-direction: row;
+  gap: 32px;
+  padding-top: 40px;
+}
+
+.review-card-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 24px;
+  padding: 32px 8px;
+  width: 335px;
+  background: #fbfbfb;
+}
+
+@media screen and (max-width: 767px) {
+  .review-list li:not(:first-child) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .review-list li:last-child {
+    display: none;
+  }
+}
+
+.review-card-img-container {
+  width: calc((100% - 32) / 2);
+}
+
+@media screen and (min-width: 1280px) {
+  .review-card-img-container {
+    width: calc((100% - 52) / 3);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .review-card-img-container {
+    width: calc((100% - 64) / 3);
+  }
+}
+
+.review-card-img {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 72px;
+  padding: 12px;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.review-card-header {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
+
+.review-card-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  overflow-wrap: break-word;
+  margin: 8px;
+  overflow: hidden;
+}
