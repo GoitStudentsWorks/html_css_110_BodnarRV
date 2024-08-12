@@ -100,4 +100,9 @@ img {
   .advantages-list-container {
     padding: 90px 50px;
   }
+  .advantages-img img {
+    box-sizing: content-box;
+    width: auto;
+    max-width: none;
+  }
 }
