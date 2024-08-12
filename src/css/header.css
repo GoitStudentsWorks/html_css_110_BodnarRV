@@ -121,15 +121,6 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .header-soc-list {
-
-  }
-}
-
-.header-soc-item {
-}
-
 .header-soc-link {
   display: flex;
   align-items: center;
@@ -160,5 +151,5 @@
 }
 
 .heder-icon {
-  fill: #1B414B;
+  fill: #1b414b;
 }
