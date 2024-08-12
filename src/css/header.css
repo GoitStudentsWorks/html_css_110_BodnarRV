@@ -40,6 +40,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    top: 32px;
+    left: 32px;
+    right: 32px;
+  }
+
   .header-button {
     display: flex;
     justify-content: center;
@@ -48,7 +54,19 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .header-button {
+  .header {
+    left: 100px;
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    width: 100%;
+    max-width: 1240px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
   }
 }
 
