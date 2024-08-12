@@ -112,6 +112,16 @@
     margin-left: 20px;
 }
 
+.privacy-link {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.privacy-link:hover,
+.privacy-link:focus {
+    color: rgba(251, 251, 251, 0.671);
+}
+
 /* ============== MOBILE FOOTER STYLES <375px============== */
 
 @media screen and (max-width: 374px) {
@@ -208,7 +218,8 @@
 
     .social-list-icon:hover,
     .social-list-icon:focus {
-        fill: rgba(251, 251, 251, 0.4);
+        
+        
     }
 
     .footer-first-paragraph {
