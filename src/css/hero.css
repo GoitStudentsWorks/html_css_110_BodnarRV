@@ -11,8 +11,10 @@
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient
-        (rgba(17, 19, 31, 0.39), rgba(17, 19, 31, 0)),
+    background-image: linear-gradient(
+        rgba(17, 19, 31, 0.39),
+        rgba(17, 19, 31, 0)
+      ),
       url(/img/hero-mobile-2x.jpg);
   }
 }
@@ -111,5 +113,5 @@
   margin: 0 auto;
   display: block;
   width: 141px;
-    height: 46px;
+  height: 46px;
 }
