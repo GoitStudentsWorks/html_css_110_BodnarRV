@@ -2,17 +2,11 @@
   <div class="header-container container">
     <nav class="header-navigation">
       <a href="./index.html" class="header-logo"> yachtjet </a>
-      <div class="header-button">
-        <button type="button" class="header-btn">
-          <a href="#about" class="text-btn"> About </a>
-        </button>
-        <button type="button" class="header-btn">
-          <a href="#yachts" class="text-btn"> Yachts </a>
-        </button>
-        <button type="button" class="header-btn">
-          <a href="#reviews" class="text-btn"> Reviews </a>
-        </button>
-      </div>
+      <ul class="header-button">
+        <li><a href="#about" class="header-btn"> About </a></li>
+        <li><a href="#yachts" class="header-btn"> Yachts </a></li>
+        <li><a href="#reviews" class="header-btn"> Reviews </a></li>
+      </ul>
       <ul class="header-soc-list">
         <li class="header-soc-item">
           <a href="" class="header-soc-link">
@@ -37,7 +31,7 @@
         </li>
       </ul>
     </nav>
-    <button type="button" class="heder-open-btn">
+    <button type="button" class="heder-open-btn" id="openMenuButton">
       <svg class="heder-icon" width="28" height="28">
         <use href="/img/icons.svg#icon-burger" />
       </svg>
