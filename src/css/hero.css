@@ -97,7 +97,7 @@
   }
 }
 
-.main-btn {
+.btn-link {
   background-color: #1b414b;
   color: #fbfbfb;
   border: none;
@@ -108,7 +108,8 @@
   letter-spacing: -0.02em;
   text-align: left;
   padding: 14px 32px;
-  transition: background-color 0.3s ease, color 0.3s ease;
   margin: 0 auto;
   display: block;
+  width: 141px;
+    height: 46px;
 }
