@@ -44,7 +44,7 @@
   align-items: center;
   background-color: #fbfbfb;
   box-sizing: border-box;
-  border: 1px solid #FBFBFB;
+  border: 1px solid #fbfbfb;
 }
 
 .mob-menu-title {
@@ -110,6 +110,11 @@
 
 .mob-menu-social-icon-list-item {
   display: inline-block;
+}
+
+.mob-menu-social-icon-list-item:hover .mob-menu-social-icon,
+.mob-menu-social-icon-list-item:focus .mob-menu-social-icon {
+  opacity: 0.8;
 }
 
 .mob-menu-button {

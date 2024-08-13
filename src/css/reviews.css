@@ -25,7 +25,20 @@
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
-  margin-bottom: 25px;
+  margin: 0 auto 25px;
+  max-width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title-additional {
+    max-width: 714px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-title-additional {
+    max-width: 854px;
+  }
 }
 
 .section-paragraph-general {
@@ -37,8 +50,14 @@
   color: #fbfbfb;
   margin-bottom: 25px;
   opacity: 0.4;
-  max-width: 571px;
+  max-width: 335px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-paragraph-general {
+    max-width: 571px;
+  }
 }
 
 .review-list {
@@ -69,7 +88,6 @@
   }
 
   .review-card-list {
-    
   }
 }
 
